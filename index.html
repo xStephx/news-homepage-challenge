@@ -19,13 +19,13 @@
 </head>
 
 <body>
-
+  <!-- Navbar -->
   <nav class="flex md:flex-row flex-col md:items-center md:justify-between lg:mx-[140px] md:mx-[70px] mx-[30px] mt-[80px] mb-[50px] relative">
     <div class="flex items-center justify-between">
       <img src="assets/images/logo.svg" alt="Logo">
       <img id="menu-icon" src="assets/images/icon-menu.svg" alt="Menu Icon" class="md:hidden block">
     </div>
-  
+    <!-- Desktop Menu -->
     <div class="md:block hidden">
       <ul class="flex md:flex-row flex-col lg:gap-10 md:gap-8 text-DarkGrayishBlue font-normal">
         <li class="cursor-pointer hover:text-SoftRed">Home</li>
@@ -35,7 +35,7 @@
         <li class="cursor-pointer hover:text-SoftRed">Categories</li>
       </ul>
     </div>
-  
+    <!-- Mobile Menu -->
     <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50">
       <ul class="flex flex-col right-0 w-[75%] h-full text-VeryDarkBlue text-2xl space-y-8 bg-white absolute top-0 pl-[25px]">
         <div class="flex justify-end p-6">
@@ -49,7 +49,7 @@
       </ul>
     </div>
   </nav>
-
+  <!-- Hero Section -->
   <section class="flex md:flex-row flex-col lg:mx-[140px] md:mx-[70px] mx-[30px] mb-[70px]">
     <div class="md:mr-[40px] md:mb-[0px] mb-[60px]">
       <div class="mb-[35px]">
@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Aside -->
     <div class="bg-VeryDarkBlue py-[35px] px-[30px] flex flex-col xl:justify-between justify-start">
       <h2 class="text-SoftOrange lg:text-4xl text-3xl font-bold mb-10">New</h2>
       <h3 class="text-OffWhite hover:text-SoftOrange cursor-pointer text-xl font-bold mb-4">Hydrogen VS Electric Cars</h3>
@@ -83,7 +83,7 @@
       <p class="text-GrayishBlue">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
     </div>
   </section>
-
+  <!-- News Section -->
   <section class="flex flex-wrap justify-between gap-8 px-6 md:px-12 lg:px-[140px] mb-16">
     <div class="flex gap-6 max-w-[350px] w-full">
       <img src="assets/images/image-retro-pcs.jpg" alt="Retro PCS Image" class="w-[120px] h-auto object-cover">
@@ -110,7 +110,6 @@
       </div>
     </div>
   </section>
-  
   <!-- Custom JS -->
   <script src="assets/js/script.js"></script>
 </body>
