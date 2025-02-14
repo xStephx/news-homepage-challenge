@@ -1,3 +1,4 @@
+// DOM elements 
 const menuIcon = document.getElementById('menu-icon');
 const mobileMenu = document.getElementById('mobile-menu');
 const closeIcon = document.getElementById('close-icon');
